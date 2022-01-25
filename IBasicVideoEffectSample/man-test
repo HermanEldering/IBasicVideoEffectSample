@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <assemblyIdentity type="win32" name="IBasicVideoEffectSample" version="1.0.0.0" />
+  <file name="IBasicVideoEffectSample.dll">
+    <comClass
+       progid="IBasicVideoEffectSample.MyVideoEffect"
+       clsid="{6B0A6E4E-896C-4944-978B-43738D42AE24}"
+       description="My video effect"
+    />
+  </file>
+</assembly>

@@ -1,0 +1,5 @@
+﻿{
+  "activatableClasses": {
+    "IBasicVideoEffectSample.MyVideoEffect": "IBasicVideoEffectSample.dll"
+  }
+}
