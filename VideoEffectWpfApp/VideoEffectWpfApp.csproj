@@ -1,13 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
     <Platforms>x64</Platforms>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
     <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
-
 
   <PropertyGroup>
     <RestoreSources>
@@ -18,9 +19,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IBasicVideoEffectSample" Version="1.0.0.25" />
+    <PackageReference Include="IBasicVideoEffectSample" Version="1.0.0.16" />
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.0.0" />
-    <PackageReference Include="SkiaSharp" Version="2.80.3" />
-    <PackageReference Include="System.Runtime" Version="4.3.1" />
   </ItemGroup>
+  
 </Project>

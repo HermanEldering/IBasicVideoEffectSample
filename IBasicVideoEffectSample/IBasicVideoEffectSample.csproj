@@ -8,7 +8,7 @@
     <!--<EnableComHosting>true</EnableComHosting>-->
     <!--<ApplicationManifest>app.manifest</ApplicationManifest>-->
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageVersion>1.0.0.8</PackageVersion>
+    <PackageVersion>1.0.0.25</PackageVersion>
     
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>

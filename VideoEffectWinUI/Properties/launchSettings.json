@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "VideoEffectWinUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "VideoEffectWinUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
